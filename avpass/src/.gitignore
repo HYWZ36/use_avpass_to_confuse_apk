@@ -1,0 +1,17 @@
+/out2
+/in2
+/temp
+*.bak
+/temp*
+install.sh
+/malware
+/out2
+*.swp
+*.pyc
+*.apk
+*.pkl
+/doc_bak
+/in
+/infer_ex
+/lib_backup
+/out

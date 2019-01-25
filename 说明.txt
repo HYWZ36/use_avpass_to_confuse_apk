@@ -1,0 +1,8 @@
+参考https://github.com/sslab-gatech/avpass/blob/master/docs/README.md在ubuntu下搭建环境。
+
+在avpass/src/conf.py下36-41行设置了策略：
+OBFUSCATION_LIST = [API_REFLECTION, STRING, VARIABLE,\
+                   RESOURCE_IMAGE+RESOURCE_XML]
+OBFUSCATION_LIST = [API_REFLECTION, STRING,VARIABLE]
+OBFUSCATION_LIST = [STRING,VARIABLE]
+OBFUSCATION_LIST = [API_REFLECTION]
